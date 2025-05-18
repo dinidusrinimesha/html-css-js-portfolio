@@ -101,3 +101,36 @@
         text-align: justify;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .contact-info-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .contact-info-left-container,
+    .contact-info-right-container {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .contact-info-right-container {
+        margin-top: 1rem;
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .contact-info-item {
+        justify-content: center;
+    }
+
+    .contact-icon {
+        margin-right: 0.5rem;
+    }
+
+    .form-input button {
+        width: 100%;
+    }
+}
